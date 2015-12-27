@@ -34,5 +34,4 @@ def fibonacci(num):
             n1 = n2
             n2 = fibno
             fibno = n1+n2
-            print (n1 ,n2 ,fibno)
     return fibno
