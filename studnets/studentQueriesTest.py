@@ -89,7 +89,7 @@ class studentTest(unittest.TestCase):
         self.assertEqual(2,len(phone_book["B"]));
         self.assertEqual(16,len(phone_book["S"]));
         self.assertEqual(0,len(phone_book["Z"]));
-        # self.assertEqual(undefined,phone_book["7"])
+        self.assertEqual(undefined,phone_book["7"])
 
         namesThatBeginWithB =map(lambda x : x['name'] , phone_book["B"])
         self.assertEqual(["Bindu S","Brindaban Patra"],namesThatBeginWithB);
