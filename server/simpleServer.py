@@ -21,7 +21,8 @@ class myHandler(BaseHTTPRequestHandler):
 
 		except IOError:
 			self.send_error(404,'File Not Found: %s' % self.path)
-
+	def log_message(self, format, *args):
+		return
 
 server = HTTPServer(('', PORT_NUMBER), myHandler)
 server.serve_forever();
