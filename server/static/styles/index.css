@@ -4,3 +4,6 @@
 .link{
 	margin-bottom: 0;
 }
+.hidden{
+	visibility: hidden;
+}
