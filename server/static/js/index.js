@@ -3,7 +3,6 @@ var postComment = function(){
 		$('.input').html(response);
 	})
 }
-
 var onReady = function(){
 	$('#post').click(function(){
 		postComment();
